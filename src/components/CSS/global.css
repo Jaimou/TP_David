@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 35px;
+    padding: 20px;
+}
+
+.random {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.troisPlatsDuHome {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.toutesLesRecettes {
+    text-align: center;
+    padding: 20px;
+}
+
+.buttonRecettes {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#buttonRecettes {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+#buttonRecettes:hover {background-color:rgb(205, 191, 172)}
+
+#buttonRecettes:active {
+  background-color:rgb(205, 191, 172);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.tousLesPlats {
+    text-align: center;
+}
